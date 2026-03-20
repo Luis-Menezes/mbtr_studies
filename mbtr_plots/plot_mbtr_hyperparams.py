@@ -131,10 +131,14 @@ def plot_hyperparameter_sweep(structures, builders, base_params, outdir, term, p
         for ax, (name, atoms) in zip(axes, structures.items()):
             vec = mbtr_vector(descriptor, atoms)
             x = np.linspace(grid_min, grid_max, vec.size)
+            # if param_name != "sigma":
             ax.plot(x, vec, lw=1.2, label=f"{param_name}={value}")
+            ax.set_ylabel("Intensity")
+            # else:
+            #     ax.plot(x, np.log(vec+1e-10), lw=1.2, label=f"{param_name}={value}")
+            #     ax.set_ylabel("Intensity (log scale)")
             ax.set_title(f"{name} — {term}")
             ax.set_xlabel("Feature index")
-            ax.set_ylabel("Intensity")
             ax.grid(alpha=0.25)
 
     for ax in axes:
@@ -179,7 +183,7 @@ def main():
 
     sweeps = {
         # "k1": {"sigma": [1e-4, 0.10, 1], "resolution": [1, 2, 10, 100]},
-        "k2": {"sigma": [0.001, 0.01, 0.15, 0.5, 0.7], "resolution": [5, 10, 100, 200], "weight_scale": [0.3, 0.7, 1.5], "threshold": [1e-4, 1e-3, 1e-2]},
+        "k2": {"sigma": [0.01, 0.05,0.15, 0.5, 0.7], "resolution": [5, 10, 100, 200], "weight_scale": [0.35, 0.7, 1.4], "threshold": [1e-4, 1e-3, 1e-2]},
         # "k3": {"sigma": [1.0, 3.0, 8.0], "resolution": [60, 180, 320], "weight_scale": [0.3, 0.7, 1.5]},
     }
 

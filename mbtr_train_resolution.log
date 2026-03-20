@@ -1,0 +1,35 @@
+Loaded 8699 structures (max atoms per structure: 51)
+Train/test split: 6959/1740
+Species count: 63
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
+/home/luis-menezes/miniconda3/envs/env_3.12/lib/python3.12/site-packages/dscribe/core/system.py:96: FutureWarning: Please use atoms.calc
+  calculator=atoms.get_calculator(),
